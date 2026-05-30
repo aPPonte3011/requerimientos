@@ -118,8 +118,11 @@
             </table>
 
             <div class="export-panel" id="exportPanel">
-                <button class="btn btn-excel" onclick="window.location.href='/export/excel'">📊 Descargar Excel</button>
-                <button class="btn btn-pdf" onclick="window.location.href='/export/pdf'">📄 Descargar PDF</button>
+				<button class="btn btn-excel" disabled title="Función en mantenimiento">📊 Descargar Excel</button>
+				<button class="btn btn-pdf" disabled title="Función en mantenimiento">📄 Descargar PDF</button>
+				<small style="color: #64748b; margin-left: 15px; display: flex; align-items: center;">
+					⚠️ Exportación temporalmente desactivada
+				</small>
             </div>
         </div>
     </div>
